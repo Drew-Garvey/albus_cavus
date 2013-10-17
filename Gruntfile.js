@@ -109,11 +109,11 @@ module.exports = function(grunt) {
         // This sets up watch configurations
         watch: {
             all: {
-                files: ['styles/sass/*.scss', 'js/*.js'],
+                files: ['styles/scss/*.scss', 'js/*.js'],
                 tasks: ['default']
             },
             sass: {
-                files: ['styles/sass/*.scss'],
+                files: ['styles/scss/*.scss'],
                 tasks: ['sass:dev']
             }
         },
